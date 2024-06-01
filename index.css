@@ -1,0 +1,319 @@
+*{
+   
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100dvh;
+    width: 100dvw;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90dvw;
+    height: 90dvh;
+    background-color: white;
+    box-shadow: 15px 15px 1px 0px rgb(101, 60, 134);
+}
+
+nav{
+    width: auto;
+    height: 8dvh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1dvw;
+}
+
+.ownername{
+    background-color: white;
+    box-shadow: 1px 1px 1px white;
+    padding: 0.5rem;
+    border-radius: 50% 20% / 10% 40%;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.mainheading{
+    background-color: yellow;
+    width: 20dvw;
+    height: 10dvh;
+    margin-left: 1dvw;
+    margin-top: 2dvh;
+    font-style: italic;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 30% 50% 70%;
+    text-shadow: blueviolet 2px 4px;
+}
+
+.horizontalsection{
+    width: 90dvw;
+    height: 35dvh;
+    margin-top: 1dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addressarticle{
+    height: 35dvh;
+    width: 25dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+}
+
+.addressarticle h1{
+    background-color: yellow;
+    padding: 0.7rem;
+    border-radius: 0% 10px 15px;
+    margin-bottom: 2dvh;
+    font-size: larger;
+}
+
+.addressarticle p{
+    padding-top: 1dvh;
+    align-self: flex-start;
+    font-size: calc(0.5rem + (26 - 14) * ((100dvw - 300px) / (1600 - 300)));
+}
+
+.imagearticle{
+    height: 35dvh;
+    width: 25dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+    background-image: url('./rihanna.png');
+    border-radius: 50% 20% / 10% 40%;
+}
+
+article{
+    height: 35dvh;
+    width: 25dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+}
+
+.awardsarticle{
+    height: 35dvh;
+    width: 25dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+}
+
+.awardsarticle h1{
+    background-color: yellow;
+    padding: 0.7rem;
+    border-radius: 0% 10px 15px;
+    margin-bottom: 2dvh;
+    font-size: larger;
+}
+
+.awardsarticle h4{
+    padding-left: 1dvw;
+    align-self: flex-start;
+}
+.awardsarticle p{
+    padding-top: 1dvh;
+    padding-left: 1dvw;
+    text-align: left;
+    font-size: 0.5rem;
+    text-align: left;
+}
+
+.skillsarticle{
+    height: 35dvh;
+    width: 25dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+    border-radius: 10px 100px / 120px;
+    background-color: blueviolet;
+}
+
+.skillsarticle h1{
+    background-color: yellow;
+    padding: 0.7rem;
+    border-radius: 0% 10px 15px;
+    margin-bottom: 2dvh;
+    font-size:x-large;
+}
+
+.skillsarticle h4{
+    padding-left: 1dvw;
+    align-self: flex-start;
+}
+
+.skillsarticle p{
+    padding-top: 1dvh;
+    padding-left: 1dvw;
+    text-align: left;
+    font-size: 0.5rem;
+    text-align: left;
+}
+
+.educationarticle{
+    height: 35dvh;
+    width: 25dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+}
+
+.educationarticle h1{
+    background-color: yellow;
+    padding: 0.7rem;
+    border-radius: 10% 30% 50% 70%;
+    margin-bottom: 1dvh;
+    font-size:x-large;
+}
+
+.educationarticle h4{
+    padding-left: 1dvw;
+    align-self: flex-start;
+    color: blueviolet;
+}
+
+.educationarticle p{
+    padding-top: 1dvh;
+    padding-left: 1dvw;
+   align-self: flex-start;
+    font-size: 1rem;
+}
+
+.experiencearticle{
+    height: 35dvh;
+    width: 25dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+}
+
+.experiencearticle h1{
+    background-color: yellow;
+    padding: 0.5rem;
+    border-radius: 0% 10px 15px;
+    margin-bottom: 0.5dvh;
+    font-size:x-large;
+}
+.experiencearticle h4{
+    padding-left: 1dvw;
+    align-self: flex-start;
+}
+
+.experiencearticle p{
+    padding-top: 1dvh;
+    padding-left: 1dvw;
+    align-self: flex-start;
+    font-size: 0.5rem;
+    color: brown;
+}
+
+.languagearticle{
+    height: 30dvh;
+    width: 25dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: pink;
+}
+
+.languagearticle h1{
+    background-color: yellow;
+    padding: 0.7rem;
+    border-radius: 50% 20% / 10% 40%;
+    margin-bottom: 0.5dvh;
+    font-size:x-large;
+}
+
+.languagearticle h4{
+    padding-left: 1dvw;
+    align-self: flex-start;
+}
+
+.languagearticle ul{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.languagearticle li{
+    list-style: none;
+    width: 1dvw;
+    height: 2dvh;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-right: 1dvw;
+    align-self: flex-start;
+    border: 1px black solid;
+}
+
+.languagearticle .emptycircle{
+    background-color: red;
+}
+
+.hobbiesarticle{
+    height: 30dvh;
+    width: 23dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1dvw;
+    border-radius: 10% 30% 50% 70%;
+    background-color: rgb(128, 0, 128);
+}
+
+.hobbiesarticle h1{
+    background-color: yellow;
+    padding: 0.7rem;
+   border-radius: 10% 30% 50% 70%;
+    margin-bottom: 0.5dvh;
+    font-size:x-large;
+}
+
+.hobbiesarticle h4{
+    padding-left: 1dvw;
+    align-self: flex-start;
+}
+
+.hobbiesarticle p{
+    padding-top: 1dvh;
+    padding-left: 1dvw;
+    align-self: flex-start;
+    font-size: calc(0.5rem + (26 - 14) * ((30dvw - 3px) / (16000 - 30)));
+    /* font-size: 0.6rem; */
+}
